@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ajax Applications</title>
+<meta charset="utf-8">
+<script src="clienthint.js"></script> 
+    
+  <style>
+
+            body {background-color:darkslategray; color: white;}
+      .body { width: 415px; margin: 0px auto;}
+      
+      a:link {color: yellow;}
+      a:visited{color:pink;}
+       
+
+      div {font-size: 18px; font-weight: bold; color:yellow;}
+
+	  table
+      {
+       border-collapse:collapse;
+      }
+      
+	  table, td
+      {
+       border:1px solid white;
+      }
+  
+     p {text-indent: 50px; font-family: Arial;}
+
+    
+.footerLinks ul {
+	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 30px;
+}
+.footerLinks li {
+	display: inline;
+    padding: inherit;
+    
+}
+.footerLinks a {
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+   
+}
+    
+    .footerLinks a:hover {color: aquamarine}
+    </style>  
+</head>
+
+<body>
+    <h2>Ajax Applications</h2>
+
+
+<br><br><br>
+
+
+<p>
+    <b>Application Program Interfaces (API)</b> are a set of rules which make a conversation possible between two different programs. A developer creates an API on a server to allow a client to access it. Representational State Transfer are the rules that say you should be able to get a resource when you link to a specific URL. Each URL is called a request and the data sent back is called a response.   
+    
+    
+</p>  
+    
+<p> 
+  One of my biggest interests is comic books. Marvel superheroes are more popular now than ever in film and tv. If I were creating a comic book app I would use a REST API called <a href="https://superheroapi.com/?ref=apilist.fun">Superhero API</a>. It has tons of Super Heroes and Villians data from all comic book universes. It has a request and response format JSON. It requires an API Key which can only be obtained by linking a Facebook account. Here is a link with more information about it. <a href="https://apilist.fun/api/superhero-api">Superhero API.</a> This could be a great resource for someone who wants to create a database about comic book characters.
+
+</p>
+   
+
+<br><br>
+    
+        <h3>Enter letters as we suggest some names to you:</h3>
+
+<form> 
+First Name:
+<input type="text" id="txt1"
+onkeyup="showHint(this.value)">
+</form>
+    
+    
+
+<p>Suggestions: <span id="txtHint"></span></p> 
+    
+<br><br><br>
+<hr>
+
+    
+<footer>
+  <div class="footerLinks">
+    <ul>
+    <li><a href="http://www.marvel.com"> Find out about Marvel </a>
+   
+      </ul>
+    </div>
+</footer>  
+    </body>
+</html>
